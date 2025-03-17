@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>User Registration</h2>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" placeholder="Enter first name">
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" placeholder="Enter last name">
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" placeholder="Enter phone number">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email">
+
+        <label for="address">Address:</label>
+        <textarea id="address" placeholder="Enter address"></textarea>
+
+        <button onclick="submitForm()">Submit</button>
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
